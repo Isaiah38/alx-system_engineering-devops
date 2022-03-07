@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -d | find /etc/passwd /home/* -type -d | less
+find /etc/passwd /home/* -type -d | sort -d 
